@@ -30,3 +30,16 @@ A Python program that scrapes articles from BBC News and performs named entity r
 ```bash
 pip install requests beautifulsoup4 spacy
 python -m spacy download en_core_web_sm
+
+## Code Structure
+
+The program is split into the following code blocks:
+
+### Block 1: Dependencies
+```python
+import pytest
+import requests 
+from bs4 import BeautifulSoup
+import json
+import spacy
+import datetime
